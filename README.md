@@ -4,22 +4,22 @@
 
 **This project removes the process where security guard of our university (VIT-BHOPAL) has to go long process to check whether the student has been approved by proctor or not, whether the student has been approved by hostel or not and did the student used all their outing or does they have remaining outing permissions. **
 
-# LANGUAGE USED
+## LANGUAGE USED
 
 **language** prolog
 
-# PROJECT FILES
+## PROJECT FILES
 
 **01-rules.pro** contains all the logic and rules for eligibility
 **02-main.pro** takes input from the user and starts the system
 
-# HOW TO SET IT UP
+## HOW TO SET IT UP
 
 **step1** Install SWI-prolog
 **step2** Install vs code
 **step3** Download the project
 
-# HOW TO USE
+## HOW TO USE
 
 **step1** open terminal in vs code(press **ctrl + '**)
 **step2** go to the project folder , do right click and chose open in integrated terminal
