@@ -1,5 +1,5 @@
 /* 
-This file contains all the rules for Vit outing system like :-
+This file contains all the rules for Vit bhopal outing system like :-
       1->One student will get maximum of two outing each week .
       2->If the student came after 6 pm then they will be penalized with 1 outing .
       3->Student will get outing only after approval of their proctor.
@@ -8,29 +8,31 @@ This file contains all the rules for Vit outing system like :-
 
 
 /*
-This checks fro 4 criteria Outingtaken which means how many outing you already took this month then Latepenalties which means if the student have been penalized for late coming and then Proctorapproval means did their proctor approved for the outing and finally Hostelapproval means that did the hostel approved for outing and only if they fullfill following criteria then only they will be allowed for outing 
+This checks 4 criteria:
+    1-> Outingtaken -> how many outings the student already took this month.
+    2->Latepenalties -> if the student has been penalized for late coming.
+    3->Proctorapproval->did their proctor approve the outing.
+    4->Hostelapproval-> did the hostel approve the outing
+Only if they fulfill all the criteria then only they be allowed for outing.
 */
 
 
 process_outing(Outingtaken,Latepenalties,Proctorapproval,Hostelapproval):-
 
+% checking proctor approval
 Proctorapproval == yes,
+% checking hostel approval.
 Hostelapproval==yes,
+% calculating outling left for student.
 Outingleft is 2-Outingtaken-Latepenalties,
 Outingleft>0,
 
 
-/* 
-finally if they will be allowed for outing only if they will fullfill the criteria then this message will appear 
-*/
+%if all criteria met then alllowed
 write('STATUS: APPROVED! you are allowed to go for outing this week. Enjoy! and be safe.'),nl.
 
 
-/* 
-and if they dont fullfill those above criteria then this message will appear 
-*/
 
-
-
+% if any criteria not met then denied
 process_outing(_,_,_,_):-
 write('STATUS: DENIED! you did not meet the criteria to go for outing. Please try next week.'),nl.
