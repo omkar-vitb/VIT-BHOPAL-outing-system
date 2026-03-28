@@ -6,7 +6,7 @@
 
 ## LANGUAGE USED
 
-**language** prolog
+**language:-** prolog
 
 ## PROJECT FILES
 
