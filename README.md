@@ -16,15 +16,21 @@
 ## HOW TO SET IT UP
 
 **step 1** Install SWI-prolog
+
 **step 2** Install vs code
+
 **step 3** Download the project
 
 ## HOW TO USE
 
 **step 1** open terminal in vs code(press **ctrl + `**)
+
 **step 2** go to the project folder , do right click and chose open in integrated terminal
+
 **step 3** In the terminal type `swipl 02-main.pro`
+
 **step 4** start the system by typing `start.` (dont forget to add fullstop at last)
+
 **step 5** Answer the questions one by one:-
 * _ques1_ How many outings has the student taken this month?
 * _ques2_ How many late penalties does the student have?
@@ -32,4 +38,5 @@
 * _ques4_ Has the hostel approved?
 
 **step 6** At last one can see the result whether they are qualified for outing or not
+
 **step 7** to stop the program type this command in terminal `halt.`
