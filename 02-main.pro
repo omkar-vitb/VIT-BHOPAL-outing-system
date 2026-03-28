@@ -26,3 +26,6 @@ write('Has the hostel approved? Type yes or no:-'),nl,
 read(Hostelapproval),
 
 process_outing(Outingtaken,Latepenalties,Proctorapproval,Hostelapproval).
+
+ 
+ 
