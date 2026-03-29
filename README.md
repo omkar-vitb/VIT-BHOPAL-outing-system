@@ -2,7 +2,7 @@
 
 ## WHAT THE PROJECT DOES
 
-**This project removes the process where security guard of our university (VIT-BHOPAL) has to go long process to check whether the student has been approved by proctor or not, whether the student has been approved by hostel or not and did the student used all their outing or does they have remaining outing permissions.**
+**This project removes the process where security guard of our university (VIT-BHOPAL) has to go long process to check whether the student is eligible for outing or not.**
 
 ## LANGUAGE USED
 
