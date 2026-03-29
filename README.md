@@ -2,7 +2,7 @@
 
 ## WHAT THE PROJECT DOES
 
-**This project removes the process where security guard of our university (VIT-BHOPAL) has to go long process to check whether the student is eligible for outing or not.**
+**This project removes the process where security guard of our university (VIT-BHOPAL) has to go long process to check whether the student is eligible for outing or not.So this project makes it easier to identify whether the student is eligible or not by taking some input like  How many outings has the student taken this month?,How many late penalties does the student have?,Has the proctor approved?,Has the hostel approved?**
 
 ## LANGUAGE USED
 
@@ -25,7 +25,7 @@
 
 **step 1** open terminal in vs code(press **ctrl + `**)
 
-**step 2** go to the project folder , do right click and chose open in integrated terminal
+**step 2** go to the project folder , do right click and chose option **open in integrated terminal**.
 
 **step 3** In the terminal type `swipl 02-main.pro`
 
@@ -37,6 +37,6 @@
 * _ques3_ Has the proctor approved?
 * _ques4_ Has the hostel approved?
 
-**step 6** At last one can see the result whether they are qualified for outing or not
+**step 6** At last one can see the result whether they are qualified for outing or not.
 
 **step 7** to stop the program type this command in terminal `halt.`
