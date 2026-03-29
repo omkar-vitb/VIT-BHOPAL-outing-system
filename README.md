@@ -25,7 +25,7 @@
 
 **step 1** open terminal in vs code(press **ctrl + `**)
 
-**step 2** go to the project folder , do right click and chose option **open in integrated terminal**.
+**step 2** go to the project folder , do right click and chose option 'open in integrated terminal'.
 
 **step 3** In the terminal type `swipl 02-main.pro`
 
